@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Poppins, sans-serif;
+}
+
+body, input, textarea, select, option {
+    font: inherit;
+}
+
+header {
+    background-color: rgb(243, 156, 170);
+    color: white;
+    text-align: center;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+
+.top-menu {
+    line-height: 1;
+}
+
+.top-menu a {
+    color: white;
+    text-decoration: none;
+    border-right: 2px solid white;  
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.top-menu a:last-child {
+    border-right: none;  
+
+}
+
+.social svg {
+    width:20px;
+    color:white;
+    margin-right: 18px;
+}
+
+.social svg:last-child {
+    margin-right: 0;
+}
+
+menu {
+    display: flex;
+    gap: 3em;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    border-radius: 30px;
+    max-width: 900px;
+    margin: -2.5em auto 1em;
+    z-index: 10;
+    position: relative;
+}
+
+.menu1 a, 
+.menu2 a {
+    margin-left: 1.5em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu1 a:first-child, 
+.menu2 a:first-child {
+    margin-left: 0;
+}
+
+.menu2 {
+    text-align: left;
+    flex: 0 1 250px;
+}
+
+.menu1 {
+    text-align: right;
+    flex: 0 1 250px;
+}
+
+.logo a {
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo a:last-child {
+color:rgb(243, 156, 170);
+}
+
+.logo-i {
+color: lightskyblue;
+}
+
+.banner{
+    margin-top: -44px;
+    background-image: url("carousel-1.jpg");
+    z-index: 1;
+    position: relative;
+    padding: 200px 0px;
+    text-align: center;
+}
+
+.banner-text1 p {
+   color: white; 
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-bottom: 1em;
+   text-shadow: 2px 2px 54px rgba(0,0,0, 0.9);
+}
+
+.banner-text2 p {
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    max-width: 600px;
+    margin:0 auto;
+}
+
+.banner-text2 p span {
+    text-shadow: 2px 2px 54px rgba(0,0,0, 0.9);
+}
+
+.button {
+    background-color: rgb(243, 156, 170) ;
+    color: white;
+    text-decoration: none;
+    border-radius: 17px;
+    padding: 0.5em 1em;
+    margin-top: 2em;
+    display: inline-block;
+}
+
+.button-blue {
+    background-color: #62C3E7;
+    color: white;
+    text-decoration: none;
+    border-radius: 17px;
+    padding: 0.5em 1em;
+}
+
+.flex-div {
+   display: flex;
+   max-width: 1000px;
+   color: #555555;
+   gap: 1em;
+   max-width: 900px;
+   margin: 0 auto;
+   justify-content: center;
+}
+
+.left,
+.right {
+    flex: 0 1 300px;
+}
+.picture {
+    max-width: 250px;
+}
+
+h1 {
+    text-align: center;  
+    color: #555555; 
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    color: #555555;
+}
+main {
+    background-color: #C8E7F8;
+    padding: 3.5em 0;
+    border-top: 5px solid #AAACB2;
+}
+
+.bold {
+    font-weight: bold;
+    padding-bottom: 1em;
+    color: #6C757D;
+}
+
+.li {
+    list-style-type: none;
+    color: #6C757D;
+}
+.li svg {
+    margin-right: 3px;
+}
+
+h3,
+.left p  {
+    padding: 0 0 1.5em;
+}
+
+li {
+    padding: 0.5em 0;
+}
+
+.pink-b {
+    width: 70px;
+    height: 4px;
+    background-color: #F195B2;
+    margin: 0 auto 1em; 
+}
+.logo {
+    flex: 0 1 200px;
+    text-align: center;
+}
+
+.footer-left-right {
+    display: flex;
+    margin: 0 auto;
+    max-width: 650px;
+    justify-content: center;
+}
+
+.domain {
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 0 5em 0;
+    color: #555555;
+}
+
+.footer-left {
+    text-align: right;
+    padding-right: 0.7em;
+    border-right: 1px solid #555555;
+    color: #555555;
+    flex: 0 1 200px;
+}
+
+.footer-right {
+    text-align: left;
+    padding-left: 0.7em;
+    color: #555555;
+    flex: 0 1 200px;
+}
+ 
+.pink {
+    color: rgb(243, 156, 170);
+}
+
+.social-round {
+    text-align: center; 
+    padding-bottom: 2em;
+}
+
+.social-round svg {
+    width: 15px;
+    color: white;
+    margin-right: 1px;
+    border: 2px solid #B0E1F3;
+    border-radius: 24px;
+    padding: 12px;
+    box-sizing: content-box;
+}
+
+.logo-2 a {
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo-2 a:last-child {
+color:rgb(243, 156, 170);
+}
+
+.logo-i {
+color: lightskyblue;
+}
+
+.logo-2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4em 0 1em 0;
+}
+
+@media (max-width: 700px) {
+    .flex-div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .picture {
+        margin: 0 auto;
+    }
+
+    .left, 
+    .right {
+        flex: 0 1 auto;
+    }
+
+    menu {
+        gap: 0em;
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    .menu1,
+    .menu2,
+    .logo {
+        text-align: center;
+        flex: 0 1 auto;
+    }
+
+    main {
+        padding: 3.5em 1em;
+    }
+
+    .banner {
+        padding: 100px 0px;
+    }
+}
+
