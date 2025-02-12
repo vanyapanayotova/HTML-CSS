@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Roboto, sans-serif;
+}
+
+.top-menu {
+    font: 14px/1.5 'Roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    justify-content:center;
+    
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #314584;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.red {
+    color: #FF3946;
+}
+header {
+    position: relative;
+    text-align: center;
+}
+
+.button-contact {
+    font: 14px/1.5 'Roboto', sans-serif;
+    background-color: #F0F0F0 ;
+    color: #314584;;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 1em 2.2em;
+    margin-top: 2em;
+    display: inline-block;
+    text-align: center;
+    box-shadow: #FF3946 0px 0px 0px 2.2px;
+    
+}
+
+.flex-div {
+    font: 'Playwrite PE', sans-serif;
+    display: flex;
+    max-width: 1400px;
+    justify-content: center;
+
+}
+
+.left {
+    flex: 0 1 500px;
+    justify-content: center;
+    z-index: 1;
+}
+
+.picture {
+    max-width: 700px;
+}
+
+.banner-h1 {
+    color: #314584 ;
+    font-size: 3.7em;
+    padding-bottom: 1em;
+    font-family: 'Playwrite PE', sans-serif ;
+    padding-top: 2em;
+}
+
+.left p{
+    color: #778082;
+    font-family: 'Playwrite PE', sans-serif ;
+}
+
+.banner-button-left{
+    font: 14px/1.5 'Roboto', sans-serif;
+    background-color:#FF3946 ;
+    color: white;
+    text-decoration: none;
+    border-radius: 27px;
+    padding: 0.8em 2em;
+    margin-top: 2em;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+}
+
+.banner-button-rigth {
+    font: 14px/1.5 'Roboto', sans-serif;
+    background-color: white ;
+    color: #314584;
+    text-decoration: none;
+    border-radius: 27px;
+    padding: 0.8em 2em;
+    margin-top: 2em;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.banner-botton {
+    display: flex;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.web,
+footer {
+    font-family: 'Playwrite PE', sans-serif ;
+    padding: 2em 1em;
+    position: relative;
+    text-align: center;
+    margin: 5px;
+}
+
+.design-box {
+    position: relative;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    margin: 5px;
+    padding: 3em 0;
+}
+
+.dev-box {
+    background-color: white;
+    position: relative;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    margin: 5px;
+    padding: 3em 0;
+}
+
+.web h2,
+.web p {
+    color: #314584;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    max-width: 700px;
+}
+
+.web p {
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.web h2 {
+    font-size: 1.7em;
+}
+
+.dev,
+.design {
+    max-width: 250px;
+}
+
+.bubble-left,
+.bubble-r {
+    position: absolute;
+    max-width: 300px;
+    z-index: 10;
+}
+
+.bubble-left {
+    left: -150px;
+    bottom: -150px;
+}
+
+.bubble-r {
+    right: -150px;
+    bottom: -150px; 
+}
+h6{
+    color:#FF3946 ;
+    padding-bottom: 1em;
+    font-size: 1em;
+}
+
+.web h2:last-child {
+    padding-bottom: 1em;
+}
+
+.company-img {
+    max-width: 500px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.contact h2 {
+    color: #314584;
+    font-size: 2.3em;
+}
+
+.contact-form nav {
+    background-color: #314584 ;
+    color: white;
+    border-radius: 18px;
+    padding: 1.5em 1.5em;
+    margin-top: 1em;
+    display: block;
+    text-align: left;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.message-here {
+    padding: 1.5em 1.5em;
+}
+
+.footer-menu {
+    font: 14px/1.5 'Roboto', sans-serif;
+    background-color:  #314584;
+    padding-bottom: 100px;
+    margin-top: 1em;
+    padding-top: 4em;
+    position: relative;
+}
+
+.footer-menu a {
+    color: white;
+}
+
+.footer-m p {
+   position: absolute; 
+   bottom: 85px;
+   color: white;
+   font-size: 12px;
+
+}
+
+
+
