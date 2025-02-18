@@ -1,0 +1,104 @@
+@media all and (max-width: 600px) {
+    body {
+        font-size: 13px;
+        width: 85%;
+    }
+
+    .fa-solid, .fas {
+        color: white;
+        font-size: 2.5em;
+        padding-top: 14px;
+    }
+
+    .nav-user-btns {
+        flex-direction: column;
+    }
+
+    .content-info-welcome {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-info {
+        padding: 25px 25px;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .content-services div p {
+        font-size: 14px;
+    }
+
+    .content-info-welcome h2 {
+        font-size: 56px;
+    }
+
+    .nav-menu {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    .content-info-welcome button,
+    .content-info-welcome button:hover {
+        width: 80%;
+    }
+
+    .content-info-img {
+        display: none;
+    }
+
+    .gallery img {
+        width: 100%;
+        border-radius: 0;
+        background: none;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .content-services {
+        flex-direction: column;
+    }
+
+    .content-services div {
+        width: 100%;
+        border-radius: 67px;
+    }
+
+    .nav-user-btns {
+        width: 100%;
+    }
+
+    .nav-user-btns > li button{
+        width: 100%;
+    }
+
+    .nav-burger-menu {
+        display: flex;
+        order: -1;
+    }
+
+    .nav-menu {
+        display:none;
+    }
+
+    .nav-user-btns > li:nth-child(1) > button {
+        border-radius: 4px;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .content-info-welcome h2 {
+        font-size: 40px;
+    }
+
+    body {
+        font-size: 13px;
+        width: 95%;
+    }
+}

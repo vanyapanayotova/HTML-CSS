@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1.5 Poppins, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-family:'IBM Plex Mono',sans-serif ;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body, input, textarea, select, option {
+  font: inherit;
+}
+
+body {
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin:  0;
+}
+
+header {
+background-color: #1B1B1B;
+}
+
+h1{
+  color: #FFFFFF;
+  font-size: 3em;
+}
+
+.left p {
+  color:#9C9C9C;
+}
+
+.menu a {
+  color: #9C9C9C;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  font-size: 11px;
+
+}
+
+.card {
+  background-color: #080808;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 0 6em;
+}
+
+.header {
+  display: flex;
+  gap: 5em;
+  max-width: 900px;
+  align-items: center;
+  background-color: #1B1B1B;
+  padding: 1.2em 3em;
+  margin: 0 auto;
+  border-radius: 0 0 7px 7px;
+  justify-content: space-evenly;
+}
+
+.icons a {
+  padding-right: 10px;
+}
+
+.icons a:last-child{
+  padding-right: 0;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4em 0;
+  gap: 4em
+}
+
+.right img {
+  max-width: 250px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.left p {
+  padding-top: 3em;
+  color: #89919C;
+  font-size: 12px;
+  padding-bottom: 2em;
+}
+
+.left a{
+  background-color: #3F8E00;
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 12px 35px;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+
+.logos {
+  display: flex;
+  gap: 3em;
+  margin: 0 auto;
+  justify-content:center;
+  align-items:center;
+}
+
+.logos a {
+  border: 1px solid #424242;
+  border-radius: 4px;
+  padding: 0 2em;
+  display: flex;
+  height: 40px;
+  width: 111px;
+  text-align: center;
+  justify-content: center;
+    align-items: center;
+}
+
+.paychex {
+  padding: 0.5em;
+}
+
+.logos a img {
+  margin: 0 auto;
+  display:block;
+}
+
+.footer {
+  padding-bottom: 3em;
+  color: white;
+}
+
+.footer p {
+  padding: 1em 3em;
+  font-size: 12px;
+}
+
